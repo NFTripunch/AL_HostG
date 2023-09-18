@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "main.py", line 753, in <module>
+    main() 
+  File "main.py", line 409, in main
+    idx_train, idx_available = node_selection(idx_train, idx_available, num_class, predicted_class, weighted_score, num_labeled_nodes_per_class, adj_matrix, labels)
+  File "main.py", line 618, in node_selection
+    max_reception_node, max_field = get_max_receptive_node_dense(idx_train,idx_available_temp,weighted_score, adj_matrix, labels)
+  File "/home/bsft19/xuezhwang2/shaw/ALG-main/examples/utils.py", line 534, in get_max_receptive_node_dense
+    if labels:
+RuntimeError: Boolean value of Tensor with more than one value is ambiguous

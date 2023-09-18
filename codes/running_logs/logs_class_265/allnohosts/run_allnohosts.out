@@ -1,0 +1,243 @@
+Running with seed:  265
+Running ALG model
+T: 19
+Number of classes: 11
+Total number of nodes: 2163
+The number of nodes for label: 220
+batch_sizes_per_class: [2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+batch_sizes: [22 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11]
+alphas: [1.0, 0.9965844930066698, 0.9863613034027223, 0.9694002659393304, 0.9458172417006346, 0.9157733266550574, 0.8794737512064891, 0.8371664782625287, 0.7891405093963936, 0.7357239106731317, 0.6772815716257411, 0.6142127126896679, 0.5469481581224269, 0.47594739303707345, 0.40169542465296953, 0.32469946920468357, 0.24548548714079924, 0.16459459028073375, 0.0825793454723324, 6.123233995736766e-17]
+batch_epochs: [121 116 112 107 102  97  93  88  83  78  74  69  64  60  55  50  45  41
+  36]
+
+[STEP 1]: Upload hostg.class dataset.
+| # of nodes : 2286
+| # of edges : 38161.0
+| # of features : (2286, 512)
+| # of classes   : 11
+number of nan: 0
+Label distribution of the dataset:
+0     778
+1     506
+2     433
+3     127
+4      92
+5      64
+6      50
+7      50
+8      29
+9      21
+10     13
+dtype: int64
+| # of maximum train set : 238
+| # of all train set (including the val set): 1627
+| # of val set   : 500
+| # of test set  : 536
+| # of labels : torch.Size([2163])
+tested on a dropout graph with rate:  0.0
+Number of edges after deletion:  38161.0
+Size of training set:  1109
+Size of validation set:  500
+Size of test set:  536
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  Evaluation begin  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Validation loss decreased (inf --> 2.121).  Saving model ...
+Validation loss decreased (2.121 --> 2.017).  Saving model ...
+Validation loss decreased (2.017 --> 1.394).  Saving model ...
+Validation loss decreased (1.394 --> 1.297).  Saving model ...
+Validation loss decreased (1.297 --> 1.270).  Saving model ...
+Validation loss decreased (1.270 --> 1.106).  Saving model ...
+Validation loss decreased (1.106 --> 0.956).  Saving model ...
+Validation loss decreased (0.956 --> 0.917).  Saving model ...
+############################################################################
+GCN Epoch 010
+train_loss: 1.0257, val_loss: 0.8417, val_test: 0.9423
+current val_acc: 0.7580 
+current test_acc: 0.7034 
+############################################################################
+Validation loss decreased (0.917 --> 0.842).  Saving model ...
+Validation loss decreased (0.842 --> 0.760).  Saving model ...
+Validation loss decreased (0.760 --> 0.751).  Saving model ...
+Validation loss decreased (0.751 --> 0.706).  Saving model ...
+Validation loss decreased (0.706 --> 0.679).  Saving model ...
+Validation loss decreased (0.679 --> 0.666).  Saving model ...
+Validation loss decreased (0.666 --> 0.639).  Saving model ...
+Validation loss decreased (0.639 --> 0.616).  Saving model ...
+Validation loss decreased (0.616 --> 0.600).  Saving model ...
+############################################################################
+GCN Epoch 020
+train_loss: 0.6879, val_loss: 0.5891, val_test: 0.6710
+current val_acc: 0.8320 
+current test_acc: 0.7854 
+############################################################################
+Validation loss decreased (0.600 --> 0.589).  Saving model ...
+Validation loss decreased (0.589 --> 0.581).  Saving model ...
+Validation loss decreased (0.581 --> 0.576).  Saving model ...
+Validation loss decreased (0.576 --> 0.564).  Saving model ...
+Validation loss decreased (0.564 --> 0.553).  Saving model ...
+Validation loss decreased (0.553 --> 0.545).  Saving model ...
+############################################################################
+GCN Epoch 030
+train_loss: 0.6958, val_loss: 0.5439, val_test: 0.6216
+current val_acc: 0.8420 
+current test_acc: 0.8116 
+############################################################################
+Validation loss decreased (0.545 --> 0.532).  Saving model ...
+############################################################################
+GCN Epoch 040
+train_loss: 0.6561, val_loss: 0.5239, val_test: 0.6002
+current val_acc: 0.8440 
+current test_acc: 0.8228 
+############################################################################
+Validation loss decreased (0.532 --> 0.524).  Saving model ...
+############################################################################
+GCN Epoch 050
+train_loss: 0.6275, val_loss: 0.5311, val_test: 0.5833
+current val_acc: 0.8460 
+current test_acc: 0.8340 
+############################################################################
+Validation loss decreased (0.524 --> 0.515).  Saving model ...
+Validation loss decreased (0.515 --> 0.509).  Saving model ...
+############################################################################
+GCN Epoch 060
+train_loss: 0.6446, val_loss: 0.5222, val_test: 0.5808
+current val_acc: 0.8580 
+current test_acc: 0.8340 
+############################################################################
+Validation loss decreased (0.509 --> 0.500).  Saving model ...
+############################################################################
+GCN Epoch 070
+train_loss: 0.6450, val_loss: 0.5015, val_test: 0.5741
+current val_acc: 0.8640 
+current test_acc: 0.8451 
+############################################################################
+Validation loss decreased (0.500 --> 0.493).  Saving model ...
+############################################################################
+GCN Epoch 080
+train_loss: 0.6186, val_loss: 0.4847, val_test: 0.5702
+current val_acc: 0.8620 
+current test_acc: 0.8302 
+############################################################################
+Validation loss decreased (0.493 --> 0.485).  Saving model ...
+############################################################################
+GCN Epoch 090
+train_loss: 0.6252, val_loss: 0.5113, val_test: 0.5925
+current val_acc: 0.8420 
+current test_acc: 0.8116 
+############################################################################
+############################################################################
+GCN Epoch 100
+train_loss: 0.6122, val_loss: 0.4909, val_test: 0.5815
+current val_acc: 0.8400 
+current test_acc: 0.8097 
+############################################################################
+############################################################################
+GCN Epoch 110
+train_loss: 0.6435, val_loss: 0.4857, val_test: 0.5626
+current val_acc: 0.8500 
+current test_acc: 0.8284 
+############################################################################
+Validation loss decreased (0.485 --> 0.480).  Saving model ...
+############################################################################
+GCN Epoch 120
+train_loss: 0.6025, val_loss: 0.4942, val_test: 0.5871
+current val_acc: 0.8640 
+current test_acc: 0.8153 
+############################################################################
+############################################################################
+GCN Epoch 130
+train_loss: 0.5837, val_loss: 0.4841, val_test: 0.5627
+current val_acc: 0.8580 
+current test_acc: 0.8228 
+############################################################################
+############################################################################
+GCN Epoch 140
+train_loss: 0.5869, val_loss: 0.4864, val_test: 0.5574
+current val_acc: 0.8600 
+current test_acc: 0.8340 
+############################################################################
+############################################################################
+GCN Epoch 150
+train_loss: 0.6244, val_loss: 0.4920, val_test: 0.5688
+current val_acc: 0.8480 
+current test_acc: 0.8209 
+############################################################################
+Validation loss decreased (0.480 --> 0.474).  Saving model ...
+############################################################################
+GCN Epoch 160
+train_loss: 0.6120, val_loss: 0.4941, val_test: 0.5798
+current val_acc: 0.8540 
+current test_acc: 0.8228 
+############################################################################
+############################################################################
+GCN Epoch 170
+train_loss: 0.6058, val_loss: 0.4856, val_test: 0.5576
+current val_acc: 0.8620 
+current test_acc: 0.8358 
+############################################################################
+############################################################################
+GCN Epoch 180
+train_loss: 0.6076, val_loss: 0.4816, val_test: 0.5562
+current val_acc: 0.8620 
+current test_acc: 0.8377 
+############################################################################
+############################################################################
+GCN Epoch 190
+train_loss: 0.5870, val_loss: 0.4794, val_test: 0.5605
+current val_acc: 0.8580 
+current test_acc: 0.8284 
+############################################################################
+############################################################################
+GCN Epoch 200
+train_loss: 0.5780, val_loss: 0.4861, val_test: 0.5588
+current val_acc: 0.8640 
+current test_acc: 0.8358 
+############################################################################
+############################################################################
+GCN Epoch 210
+train_loss: 0.5734, val_loss: 0.4809, val_test: 0.5675
+current val_acc: 0.8680 
+current test_acc: 0.8414 
+############################################################################
+############################################################################
+GCN Epoch 220
+train_loss: 0.5977, val_loss: 0.4722, val_test: 0.5657
+current val_acc: 0.8700 
+current test_acc: 0.8396 
+############################################################################
+############################################################################
+GCN Epoch 230
+train_loss: 0.5844, val_loss: 0.4776, val_test: 0.5512
+current val_acc: 0.8600 
+current test_acc: 0.8358 
+############################################################################
+############################################################################
+GCN Epoch 240
+train_loss: 0.6180, val_loss: 0.4789, val_test: 0.5677
+current val_acc: 0.8600 
+current test_acc: 0.8190 
+############################################################################
+############################################################################
+GCN Epoch 250
+train_loss: 0.6036, val_loss: 0.4831, val_test: 0.5564
+current val_acc: 0.8560 
+current test_acc: 0.8302 
+############################################################################
+Early stopped at epoch:  255
+Optimization Finished!
+Test accuracy 0.8321
+Total time elapsed: 2.3952s
+Best 10 checkpoints
+0.88 0.8470149253731343
+0.876 0.8470149253731343
+0.874 0.8432835820895522
+0.872 0.8414179104477612
+0.87 0.8470149253731343
+0.868 0.8451492537313433
+0.866 0.8246268656716418
+0.864 0.8246268656716418
+0.862 0.833955223880597
+0.86 0.832089552238806
+Confusion matrix for test set
+Test accuracy of model with best validation metric: 
+0.8470149253731343
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  Evaluation end  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
